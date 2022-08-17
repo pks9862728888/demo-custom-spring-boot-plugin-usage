@@ -25,7 +25,7 @@
 
 	<profiles>
 		<profile>
-			<!-- mvn com.demo:demo-spring-boot-maven-plugin:demo1-cmd -Prun -->
+			<!-- mvn com.demo:demo-spring-boot-maven-plugin:demo1-cmd -Prun -Dspring.profiles.active=dev -->
 			<id>run</id>
 			<build>
 				<plugins>
